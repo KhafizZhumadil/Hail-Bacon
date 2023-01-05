@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+  overflow: hidden;
+}
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  background-color: yellow;
+  border-radius: 50%;
+  justify-content: center;
+  animation: 4s linear 0s infinite alternate sun-rise;
+}
+@keyframes sun-rise {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
